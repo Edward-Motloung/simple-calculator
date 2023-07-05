@@ -1,0 +1,111 @@
+.calculator-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.blob {
+  height: 100vh;
+  position: absolute;
+  width: 100vw;
+
+  .blob-wrapper {
+    margin: -200px auto 0;
+  }
+}
+
+.calculator {
+  background-color: rgba(48, 49, 54, .8);
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 30px;
+  position: relative;
+  width: 375px;
+  z-index: 1;
+
+  &__display {
+    align-items: flex-end;
+    color: white;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__calculation-display {
+    font-size: 24px;
+  }
+
+  &__result-display {
+    font-size: 48px;
+  }
+
+  &__actions-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+    height: 55%;
+  }
+
+  &__actions-wrapper {
+    app-button:nth-of-type(1) {
+      grid-area: 5 / 1 / 6 / 3;
+    }
+
+    app-button:nth-of-type(2) {
+      grid-area: 5 / 3 / 6 / 4;
+    }
+    app-button:nth-of-type(3) {
+      grid-area: 4 / 4 / 6 / 5;
+    }
+    app-button:nth-of-type(4) {
+      grid-area: 2 / 4 / 4 / 5;
+    }
+    app-button:nth-of-type(5) {
+      grid-area: 1 / 4 / 2 / 5;
+    }
+    app-button:nth-of-type(6) {
+      grid-area: 1 / 3 / 2 / 4;
+    }
+    app-button:nth-of-type(7) {
+      grid-area: 1 / 2 / 2 / 3;
+    }
+    app-button:nth-of-type(8) {
+      grid-area: 1 / 1 / 2 / 2;
+    }
+    app-button:nth-of-type(9) {
+      grid-area: 2 / 1 / 3 / 2;
+    }
+    app-button:nth-of-type(10) {
+      grid-area: 3 / 1 / 4 / 2;
+    }
+    app-button:nth-of-type(11) {
+      grid-area: 4 / 1 / 5 / 2;
+    }
+    app-button:nth-of-type(12) {
+      grid-area: 4 / 2 / 5 / 3;
+    }
+    app-button:nth-of-type(13) {
+      grid-area: 4 / 3 / 5 / 4;
+    }
+    app-button:nth-of-type(14) {
+      grid-area: 3 / 3 / 4 / 4;
+    }
+    app-button:nth-of-type(15) {
+      grid-area: 2 / 3 / 3 / 4;
+    }
+    app-button:nth-of-type(16) {
+      grid-area: 2 / 2 / 3 / 3;
+    }
+    app-button:nth-of-type(17) {
+      grid-area: 3 / 2 / 4 / 3;
+    }
+  }
+}

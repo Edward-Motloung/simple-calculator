@@ -1,6 +1,14 @@
 # EmMotloungEqualExperts
 
+## VERSION
+5b8d0fd276b6d288905ed2f63a934e057e8feca2
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+
+## Steps to install and Run
+1. Install angular-cli from [Angular CLI](https://github.com/angular/angular-cli)
+2. Run `npm install`
+3. Run `ng serve`
 
 ## Development server
 

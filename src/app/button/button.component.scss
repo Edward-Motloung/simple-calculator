@@ -1,0 +1,29 @@
+.button-container {
+  align-items: center;
+  background-color: rgba(48, 49, 54, .5);
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  font-size: 24px;
+  font-weight: 800;
+  height: 100%;
+  justify-content: center;
+  user-select: none;
+  transition: all ease .25s;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+
+  &--has-gradient {
+    background: linear-gradient(325deg, rgba(48,49,54,0.5) 25%, rgba(23,149,212,1) 100%);
+
+  }
+}
