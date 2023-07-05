@@ -9,6 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 1. Install angular-cli from [Angular CLI](https://github.com/angular/angular-cli)
 2. Run `npm install`
 3. Run `ng serve`
+4. Run `ng test` to run tests
 
 ## Development server
 
